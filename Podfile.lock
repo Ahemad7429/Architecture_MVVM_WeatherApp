@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Hero (1.5.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (4.10.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Realm (5.4.3):
+    - Realm/Headers (= 5.4.3)
+  - Realm/Headers (5.4.3)
+  - RealmSwift (5.4.3):
+    - Realm (= 5.4.3)
+  - SVProgressHUD (2.2.5)
+  - SwiftyUserDefaults (5.0.0)
+
+DEPENDENCIES:
+  - Hero
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 4.10)
+  - Moya
+  - RealmSwift
+  - SVProgressHUD
+  - SwiftyUserDefaults
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Hero
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - Realm
+    - RealmSwift
+    - SVProgressHUD
+    - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Realm: e3d5fcc50fd79ddf87a2d86301f6edbf57531f84
+  RealmSwift: db608068eccc54bce47928e8118bde13c120c307
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyUserDefaults: 33fcb42bd1feb53a37d873feb62c82967db5f7f6
+
+PODFILE CHECKSUM: f84aa33c16a6bc4b68990aed85d140b29d440bf2
+
+COCOAPODS: 1.9.3

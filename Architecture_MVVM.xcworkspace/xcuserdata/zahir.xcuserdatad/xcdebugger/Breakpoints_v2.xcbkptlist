@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09FBCB9A-E086-4347-870A-EC341E7CB5D1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E34A690-B4FE-49C3-84F9-61FC2EB5CCE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Architecture_MVVM/Utils/Extensions/UIImageViewExtension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "setImage(with:indicator:placeHolderImage:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E34A690-B4FE-49C3-84F9-61FC2EB5CCE6 - 2e27a4392a04d012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Architecture_MVVM):__C.UIImageView.setImage(with: Swift.Optional&lt;Swift.String&gt;, indicator: Swift.Bool, placeHolderImage: __C.UIImage) -&gt; ()"
+                  moduleName = "Architecture_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AhemadAbbas/Documents/MyWork/Architecture_MVVM/Architecture_MVVM/Utils/Extensions/UIImageViewExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  uuid = "0E34A690-B4FE-49C3-84F9-61FC2EB5CCE6 - 2e27a4392a04d012"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Architecture_MVVM):__C.UIImageView.setImage(with: Swift.Optional&lt;Swift.String&gt;, indicator: Swift.Bool, placeHolderImage: __C.UIImage) -&gt; ()"
+                  moduleName = "Architecture_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AhemadAbbas/Documents/MyWork/Architecture_MVVM/Architecture_MVVM/Utils/Extensions/UIImageViewExtension.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "478">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E4992C9-0548-4CFF-8DC0-624A87CA5076"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Architecture_MVVM/Environments/Configuration.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "environment"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9572577A-04C4-4EAA-9F01-846BFF4E008C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Architecture_MVVM/Environments/Configuration.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "environment"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9572577A-04C4-4EAA-9F01-846BFF4E008C - 97dfb3370d01f01a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Architecture_MVVM.Environment in Architecture_MVVM.Configuration.environment.getter : Architecture_MVVM.Environment"
+                  moduleName = "Architecture_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AhemadAbbas/Documents/MyWork/Architecture_MVVM/Architecture_MVVM/Environments/Configuration.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "838">
+               </Location>
+               <Location
+                  uuid = "9572577A-04C4-4EAA-9F01-846BFF4E008C - 97dfb3370d01f01a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Architecture_MVVM.Environment in Architecture_MVVM.Configuration.environment.getter : Architecture_MVVM.Environment"
+                  moduleName = "Architecture_MVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AhemadAbbas/Documents/MyWork/Architecture_MVVM/Architecture_MVVM/Environments/Configuration.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "1254">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

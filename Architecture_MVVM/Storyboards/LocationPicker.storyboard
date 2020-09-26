@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Location Picker View Controller-->
+        <scene sceneID="ReT-O4-8fY">
+            <objects>
+                <viewController storyboardIdentifier="LocationPickerViewController" id="4N5-xj-VKr" customClass="LocationPickerViewController" customModule="Architecture_MVVM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="emm-bl-3vx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gat-x1-rEU" userLabel="View-Content">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GeR-bY-nDP" userLabel="NavigationContainer">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PICK LOCATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIj-ey-oDU">
+                                                <rect key="frame" x="16" y="0.0" width="329" height="44"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HpA-tW-ZV8">
+                                                <rect key="frame" x="350" y="0.0" width="44" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="GQi-mM-3mq"/>
+                                                </constraints>
+                                                <state key="normal" image="img_nav_close"/>
+                                                <connections>
+                                                    <action selector="closeAction:" destination="4N5-xj-VKr" eventType="touchUpInside" id="oat-Zs-yat"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="HpA-tW-ZV8" firstAttribute="leading" secondItem="GIj-ey-oDU" secondAttribute="trailing" constant="5" id="9Bd-7d-Kdj"/>
+                                            <constraint firstItem="GIj-ey-oDU" firstAttribute="leading" secondItem="GeR-bY-nDP" secondAttribute="leading" constant="16" id="HLy-7p-Nan"/>
+                                            <constraint firstItem="HpA-tW-ZV8" firstAttribute="top" secondItem="GeR-bY-nDP" secondAttribute="top" id="He3-k7-ihc"/>
+                                            <constraint firstAttribute="bottom" secondItem="GIj-ey-oDU" secondAttribute="bottom" id="KX4-N3-enj"/>
+                                            <constraint firstItem="GIj-ey-oDU" firstAttribute="top" secondItem="GeR-bY-nDP" secondAttribute="top" id="TMo-CX-EdS"/>
+                                            <constraint firstAttribute="bottom" secondItem="HpA-tW-ZV8" secondAttribute="bottom" id="WHA-KO-UIe"/>
+                                            <constraint firstItem="GIj-ey-oDU" firstAttribute="centerY" secondItem="GeR-bY-nDP" secondAttribute="centerY" id="bmt-pw-QHD"/>
+                                            <constraint firstAttribute="height" constant="44" id="ldl-0I-5q9"/>
+                                            <constraint firstAttribute="trailing" secondItem="HpA-tW-ZV8" secondAttribute="trailing" constant="20" id="uxz-gJ-42I"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mv-Og-Ozg" userLabel="MapContainer">
+                                        <rect key="frame" x="0.0" y="44" width="414" height="808"/>
+                                        <subviews>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xAe-SG-kI7">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                            </mapView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="xAe-SG-kI7" secondAttribute="bottom" id="VH5-o0-pLe"/>
+                                            <constraint firstAttribute="trailing" secondItem="xAe-SG-kI7" secondAttribute="trailing" id="WWK-hf-dOB"/>
+                                            <constraint firstItem="xAe-SG-kI7" firstAttribute="top" secondItem="6mv-Og-Ozg" secondAttribute="top" id="cVA-MX-eOZ"/>
+                                            <constraint firstItem="xAe-SG-kI7" firstAttribute="leading" secondItem="6mv-Og-Ozg" secondAttribute="leading" id="vOX-QR-m6y"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GeR-bY-nDP" firstAttribute="leading" secondItem="gat-x1-rEU" secondAttribute="leading" id="Kok-XD-1mR"/>
+                                    <constraint firstItem="6mv-Og-Ozg" firstAttribute="leading" secondItem="gat-x1-rEU" secondAttribute="leading" id="OYV-fx-OH8"/>
+                                    <constraint firstAttribute="trailing" secondItem="6mv-Og-Ozg" secondAttribute="trailing" id="P6k-lm-3nV"/>
+                                    <constraint firstItem="GeR-bY-nDP" firstAttribute="top" secondItem="gat-x1-rEU" secondAttribute="top" id="lNO-PO-vaJ"/>
+                                    <constraint firstItem="6mv-Og-Ozg" firstAttribute="top" secondItem="GeR-bY-nDP" secondAttribute="bottom" id="nsE-Zd-ikq"/>
+                                    <constraint firstAttribute="trailing" secondItem="GeR-bY-nDP" secondAttribute="trailing" id="pp0-o9-6BE"/>
+                                    <constraint firstAttribute="bottom" secondItem="6mv-Og-Ozg" secondAttribute="bottom" id="sSv-Qi-Vuc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.090196078431372548" green="0.090196078431372548" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gat-x1-rEU" secondAttribute="bottom" id="3NJ-Na-n9t"/>
+                            <constraint firstItem="gat-x1-rEU" firstAttribute="leading" secondItem="yyc-jg-nfJ" secondAttribute="leading" id="ito-af-wEl"/>
+                            <constraint firstItem="yyc-jg-nfJ" firstAttribute="trailing" secondItem="gat-x1-rEU" secondAttribute="trailing" id="rlz-YV-G1W"/>
+                            <constraint firstItem="gat-x1-rEU" firstAttribute="top" secondItem="yyc-jg-nfJ" secondAttribute="top" id="vcP-tH-gnR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yyc-jg-nfJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="HpA-tW-ZV8" id="sn3-93-gel"/>
+                        <outlet property="mapView" destination="xAe-SG-kI7" id="ZIX-qg-668"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q8X-QI-u76" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_nav_close" width="16" height="16"/>
+    </resources>
+</document>
